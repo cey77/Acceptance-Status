@@ -4,9 +4,9 @@ var gender = null;
 var prevUni = null;
 var lastDegree = null;
 var gpa = null;
-var coef3_1 = 2.42220; //low
-var coef3_2 = 3.19933; //meidium
-var coef3_3 = 2.65315; //very high
+var coef3_1 = -0.22312; //low
+var coef3_2 = 0.53518; //meidium
+var coef3_3 = -2.69323; //very high
 var coef3 = null;
 function GenderFunction(e1) {
   gender = e1.options[e1.selectedIndex].value;
@@ -34,10 +34,10 @@ gpaField.addEventListener("input", function () {
   console.log(gpa);
 });
 
-var coef1 = 15.72003;
-var coef2 = 0.60206;
-var coef4 = -0.46520;
-var coef6 = -0.23654;
+var coef1 = 17.81166;
+var coef2 = -0.60603;
+var coef4 = 0.93390;
+var coef6 = -0.23431;
 
 const myForm = document.getElementById("myForm");
 
